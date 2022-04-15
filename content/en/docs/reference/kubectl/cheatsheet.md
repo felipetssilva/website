@@ -161,6 +161,8 @@ kubectl get deployment my-dep                 # List a particular deployment
 kubectl get pods                              # List all pods in the namespace
 kubectl get pod my-pod -o yaml                # Get a pod's YAML
 
+kubectl -n kube-system get ds                 # List Domain Servers available 
+
 # Describe commands with verbose output
 kubectl describe nodes my-node
 kubectl describe pods my-pod
